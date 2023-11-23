@@ -1,0 +1,14 @@
+C:\Users\zella\Desktop\Coding Projects\Flappy Bee\FlappyBee\FlappyBeeVS\FlappyBeeVS\bin\Debug\net6.0\FlappyBeeVS.exe
+C:\Users\zella\Desktop\Coding Projects\Flappy Bee\FlappyBee\FlappyBeeVS\FlappyBeeVS\bin\Debug\net6.0\FlappyBeeVS.deps.json
+C:\Users\zella\Desktop\Coding Projects\Flappy Bee\FlappyBee\FlappyBeeVS\FlappyBeeVS\bin\Debug\net6.0\FlappyBeeVS.runtimeconfig.json
+C:\Users\zella\Desktop\Coding Projects\Flappy Bee\FlappyBee\FlappyBeeVS\FlappyBeeVS\bin\Debug\net6.0\FlappyBeeVS.dll
+C:\Users\zella\Desktop\Coding Projects\Flappy Bee\FlappyBee\FlappyBeeVS\FlappyBeeVS\bin\Debug\net6.0\FlappyBeeVS.pdb
+C:\Users\zella\Desktop\Coding Projects\Flappy Bee\FlappyBee\FlappyBeeVS\FlappyBeeVS\obj\Debug\net6.0\FlappyBeeVS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zella\Desktop\Coding Projects\Flappy Bee\FlappyBee\FlappyBeeVS\FlappyBeeVS\obj\Debug\net6.0\FlappyBeeVS.AssemblyInfoInputs.cache
+C:\Users\zella\Desktop\Coding Projects\Flappy Bee\FlappyBee\FlappyBeeVS\FlappyBeeVS\obj\Debug\net6.0\FlappyBeeVS.AssemblyInfo.cs
+C:\Users\zella\Desktop\Coding Projects\Flappy Bee\FlappyBee\FlappyBeeVS\FlappyBeeVS\obj\Debug\net6.0\FlappyBeeVS.csproj.CoreCompileInputs.cache
+C:\Users\zella\Desktop\Coding Projects\Flappy Bee\FlappyBee\FlappyBeeVS\FlappyBeeVS\obj\Debug\net6.0\FlappyBeeVS.dll
+C:\Users\zella\Desktop\Coding Projects\Flappy Bee\FlappyBee\FlappyBeeVS\FlappyBeeVS\obj\Debug\net6.0\refint\FlappyBeeVS.dll
+C:\Users\zella\Desktop\Coding Projects\Flappy Bee\FlappyBee\FlappyBeeVS\FlappyBeeVS\obj\Debug\net6.0\FlappyBeeVS.pdb
+C:\Users\zella\Desktop\Coding Projects\Flappy Bee\FlappyBee\FlappyBeeVS\FlappyBeeVS\obj\Debug\net6.0\FlappyBeeVS.genruntimeconfig.cache
+C:\Users\zella\Desktop\Coding Projects\Flappy Bee\FlappyBee\FlappyBeeVS\FlappyBeeVS\obj\Debug\net6.0\ref\FlappyBeeVS.dll
