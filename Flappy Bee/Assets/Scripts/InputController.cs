@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 public class InputController : MonoBehaviour
 {
@@ -13,14 +13,23 @@ public class InputController : MonoBehaviour
     //for score keeper
     private int Points = 0;
     public Text ScoreText;
-   
 
+
+    void GameOver()
+    {
+        SceneManager.LoadScene(2);
+    }
     //jump controller
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
             controlledJumper.Jump();
+        }
+
+        if (transform.position.y <= -4.68)
+        {
+            GameOver();
         }
     }
     //score keeper
