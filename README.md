@@ -21,7 +21,7 @@ I created this project with the help of Indie Game Academy's secret Level 0 cour
 <p id="Player Controlls">
 <h3>Player Controlls</h3>
 
-The player only moves up and down through "jumping", triggered by the space bar. The player stays in one spot and the obstacles move around it.
+The player only moves up and down through "jumping", triggered by clicking the left mouse button. The player stays in one spot and the obstacles move around it.
 
 ```
 using System.Collections;
@@ -29,7 +29,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 public class InputController : MonoBehaviour
 {
@@ -39,14 +39,23 @@ public class InputController : MonoBehaviour
     //for score keeper
     private int Points = 0;
     public Text ScoreText;
-   
 
+
+    void GameOver()
+    {
+        SceneManager.LoadScene(2);
+    }
     //jump controller
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
             controlledJumper.Jump();
+        }
+
+        if (transform.position.y <= -4.68)
+        {
+            GameOver();
         }
     }
     //score keeper
@@ -60,6 +69,7 @@ public class InputController : MonoBehaviour
         }
     }
 }
+
 ```
 </p>
 
@@ -219,8 +229,10 @@ Lastly, here are some images from the final product. All the artwork was self-ma
 ![Main Menu](https://github.com/zeeebs/FlappyBee/blob/main/Flappy%20Bee/ReadMeImages/MainMenu.png)
 
 ![Game Play](https://github.com/zeeebs/FlappyBee/blob/main/Flappy%20Bee/ReadMeImages/GamePlay.png)
+![Game Play 2](https://github.com/zeeebs/FlappyBee/blob/main/Flappy%20Bee/ReadMeImages/GamePlay4.png)
 
 ![Game Over](https://github.com/zeeebs/FlappyBee/blob/main/Flappy%20Bee/ReadMeImages/GameOver.png)
+
 
 
   
